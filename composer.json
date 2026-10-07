@@ -1,0 +1,16 @@
+{
+    "name": "cookielessaudiences/cookielessaudiences",
+    "description": "PHP client for the Cookieless Audiences API: page-level audience segmentation and IAB content categorization with no cookies and no PII.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["cookieless", "audience segmentation", "iab", "adtech", "contextual targeting", "purchase intent", "seller defined audiences", "api client"],
+    "homepage": "https://www.cookielessaudiences.com",
+    "support": {
+        "docs": "https://www.cookielessaudiences.com/api.php",
+        "source": "https://github.com/explainableaixai/cookielessaudiences-php",
+        "issues": "https://www.cookielessaudiences.com/contact.php"
+    },
+    "authors": [{"name": "Alpha Quantum", "email": "info@alpha-quantum.com", "homepage": "https://www.alpha-quantum.com"}],
+    "require": {"php": ">=7.4", "ext-curl": "*", "ext-json": "*"},
+    "autoload": {"psr-4": {"CookielessAudiences\\": "src/"}}
+}
